@@ -9,8 +9,8 @@
 
 
 global dicti, stak, macros
-dicti  = {}     # a dictionary of commands and their instructions, both primative and user-defined
-macros = {}     # a dictionary of macros and their expanded forms, both primative and user-defined
+dicti  = {}     # a dictionary of commands and their instructions, both primitive and user-defined
+macros = {}     # a dictionary of macros and their expanded forms, both primitive and user-defined
 stak   = []     # a stack to help with evaluation of a program
 
 def getline(prompt='dolfn #> '):
